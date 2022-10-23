@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/stylee.css"/>
+
+    </head>
+    <body>
+        
+<!-- ================================ start navbar================================== -->
+<nav class="navbar navbar-expand-lg text-white pt-3 pb-5  px-5">
+    <div class="container  px-5">
+      <a class="navbar-brand m-0 d-flex justify-content-center align-items-center" href="#">
+        <img class="w-25" src="images/logo@2x.png" alt="img"/>
+        <div class="header px-3 mt-2">
+            <h1>Weather</h1>
+            <span>tagline goes here</span>
+          </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto  mb-2 ">
+          <li class="nav-item me-5 p-0 rounded-pill py-1"  id="focas">
+            <a class="nav-link  py-0 px-3 text-white " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item me-5 p-0 rounded-pill py-1">
+            <a class="nav-link  py-0 px-3 text-white" href="#">News</a>
+          </li>
+          <li class="nav-item me-5 p-0 rounded-pill py-1">
+            <a class="nav-link  py-0 px-3 text-white">Live cameras</a>
+          </li>
+          <li class="nav-item me-5 p-0 rounded-pill py-1">
+            <a class="nav-link  py-0 px-3 text-white">Photos</a>
+          </li>     
+          <li class="nav-item me-5 p-0 rounded-pill py-1">
+            <a class="nav-link  py-0 px-3 text-white">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- ================================ end navbar================================== -->
+<!-- ================================ start header================================== -->
+<header>
+<div class="container px-5">
+  <div class="p-5 px-5 position-relative">
+    <input id="serch" type="text" placeholder="Find your location..." class="form-control form-control-lg rounded-pill border-0 px-4 text-white" />
+    <button id="submit" class="btn px-5 border-0 rounded-pill text-white position-absolute">Find</button>
+  </div>
+</div>
+</header>
+<!-- ================================ end header================================== -->
+<!-- ================================ start teable================================== -->
+<section class="pb-5">
+  <div class="container">
+    <div class="teable">
+      <div class="row ">
+        <div class="col-md-4  rounded-3">
+          <div class="item same text-white rounded-3 ">
+            <div class="heding text-white d-flex justify-content-between align-items-center rounded-top px-2 py-2">
+              <h6 class="today text-capitalize">friday</h6>
+              <h6 class="now-date text-capitalize">14 October</h6>
+            </div><!--./heading-->
+  
+            <div class="body p-4">
+              <h2 class="location text-capitalize"></h2>
+              <div class="d-flex justify-content-between">
+                <h3 class="degree text-capitalize">
+                  <span></span><sup>o</sup>C
+                </h3>
+                <img src=""  class="icon w-25" alt="img">
+              </div>
+              <h6 class="custom pt-3 text-capitalize"></h6>
+            </div><!--./body-->
+
+
+            <div class="footer text-secondary p-3">
+              <span class="me-4">
+                <img src="images/foot1.png" alt="img">
+                20%
+              </span>
+              <span class="me-4">
+                <img src="images/foot2.png" alt="img">
+                18km/h
+              </span>
+              <span class="me-4">
+                <img src="images/foot3.png" alt="img">
+                East
+              </span>
+            </div><!--./footer-->
+          </div><!--./item-->
+        </div><!--./col-->
+
+        
+        <div class="col-md-4  rounded-3">
+          <div class="item notsame text-white rounded-3 ">
+            <div class="heding text-white text-center rounded-top px-2 py-2">
+              <h6 class="day text-capitalize">friday</h6>
+            </div><!--./heading-->
+            <div class="body p-5">
+              <figure class="d-flex justify-content-around">
+                <img class="m-auto img-tom" src="" alt="img">
+              </figure>
+              <h4 class="tom-degree text-capitalize text-center ">
+                <span></span><sup>o</sup>C
+              </h4>
+              <h6 class="tom-degree-cap text-capitalize text-secondary text-center my-3">
+                <span></span><sup>o</sup>C
+              </h6>
+              <h6 class="custom-tom pt-3   text-capitalize text-center"></h6>
+            </div><!--./body-->
+          </div><!--./item-->
+        </div><!--./col-->
+
+        <div class="col-md-4  rounded-3">
+          <div class="item same text-white rounded-3 ">
+            <div class="heding text-white text-center rounded-top px-2 py-2">
+              <h6 class="day2 text-capitalize">friday</h6>
+            </div><!--./heading-->
+            <div class="body p-5">
+              <figure class="d-flex justify-content-around">
+                <img class="m-auto img-tom-after" src="" alt="img">
+              </figure>
+              <h4 class="tom-after-degree text-capitalize text-center ">
+                <span></span><sup>o</sup>C
+              </h4>
+              <h6 class="tom-after-degree-cap text-capitalize text-secondary text-center my-3">
+                <span></span><sup>o</sup>C
+              </h6>
+              <h6 class="custom-after-tom pt-3   text-capitalize text-center"></h6>
+            </div><!--./body-->
+          </div><!--./item-->
+        </div><!--./col-->
+      </div><!--./row-->
+    </div><!--teable-->
+  </div><!--./container-->
+</section>
+<!-- ================================ end teable================================== -->
+<!-- ================================ start teable================================== -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="p-5 px-5 position-relative">
+          <input type="text" placeholder="Find your location..." class="form-control form-control-lg rounded-pill border-0 px-4 text-white" />
+          <button id="submit2" class="btn px-5 border-0 rounded-pill text-white position-absolute">Subscribe</button>
+          <p class="text-white mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div><!--./col-->
+
+      <div class="col-md-4">
+        <div class="content p-5 px-5 ">
+          <ul class="list-unstyled  d-flex justify-content-center align-items-center">
+            <li class="me-3  d-flex justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-facebook-f fa-lg"></i></li>
+            <li class="me-3  d-flex justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-twitter fa-lg"></i></li>
+            <li class="me-3  d-flex justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-google-plus-g fa-lg"></i></li>
+            <li class="me-3  d-flex justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-pinterest fa-lg"></i></li>
+          </ul>
+        </div>
+      </div><!--./col-->
+    </div><!--./row-->
+  </div><!--./container-->
+</footer>
+      <script src="js/index.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+

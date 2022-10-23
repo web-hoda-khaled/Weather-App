@@ -1,0 +1,104 @@
+/* ================================ start navbar================================== */
+.navbar{
+   background-color: #1E202B;
+}
+
+.navbar .header h1{
+   font-size: 1rem;
+   color: #fff;
+   margin: 0;
+   padding: 0;
+}
+
+.navbar .header span{
+   font-size: .5rem;
+   color: #fff;
+   }
+.navbar #focas{
+   border: 2px solid  #009ad8;
+}
+.nav-item{
+   border: 2px solid transparent;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+
+   }
+
+.nav-item:hover{
+   border: 2px solid  #009ad8;
+}
+/* ================================ end navbar================================== */
+/* ================================ start header================================== */
+header{
+   height: 50vh;
+   background-image: url(../images/banner.png);
+   background-position: center;
+   background-size: cover;
+}
+#submit , #submit2{
+   top: 51px;
+   right: 52px;
+   background-color: #009ad8;
+   padding: .8rem 0;
+}
+.form-control{
+   background-color: #1E202B;
+   padding: .8rem 0;
+}
+/* ================================ end header================================== */
+/* ================================ start teable================================== */
+section{
+   background-color: #1E202B;
+}
+.item{
+   margin-top: -7rem;
+}
+.degree{
+   font-size: 5rem;
+}
+.custom , .custom-tom ,.custom-after-tom{
+   color: #009ad8;
+}
+.same .heding{
+background-color: #2D303D;
+
+}
+.col-md-4 .notsame{
+   background-color: #262936;
+}
+.col-md-4 .notsame .heding{
+   background-color: #222530;
+}
+.item{
+   height: 350px;
+   overflow: hidden;
+   background-color: #323544;
+}
+/* ================================ end teable================================== */
+/* ================================ start footer================================== */
+footer{
+   background-color: #262936;
+}
+.content ul li {
+   width: 50px;
+   height: 50px;
+   background-color: #1E202B;
+   color: #009ad8;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+}
+.content ul li:hover{
+   background-color: #009ad8;
+   color: #fff;
+}
+/* ================================ end footer================================== */
+
+
+
+
