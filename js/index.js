@@ -16,7 +16,7 @@ serchInput.addEventListener("focus" , function()
 // fetch respones
 async function getRespone(location)
 {
-   var respons =await fetch(`http://api.weatherapi.com/v1/forecast.json?key=0e9d693e7a574d6f80344408221310&q=${location}&days=3&aqi=yes&alerts=yes`)
+   var respons =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=7d77b96c972b4d119a3151101212704&q=${location}&days=3`)
    data = await respons.json();
    displayThisDay()
    displayNextDay()
